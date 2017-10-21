@@ -2,22 +2,34 @@ body {
   font-family:Verdana;
   text-align: center;
   background-color: black;
+  color: White;
 }
 
 h1 {
   font-weight: normal;
   font-size: 50px;
-  color: White;
 }
 
 h2 {
   font-weight: 300;
   font-size:42px;
-  color: White;
 
 }
 
-h3 {
+p {
   font-size: 21px;
   color: Gray;
+}
+
+.download {
+  color:Aquamarine;
+  font-size: 16px;
+}
+
+.video {
+
+}
+
+.footer {
+  text-align: right;
 }
