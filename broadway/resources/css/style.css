@@ -31,7 +31,7 @@ a {
 .header, .mid_section{
     background-image: url("./../images/the-flatiron-building.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     color: white;
 }
 
