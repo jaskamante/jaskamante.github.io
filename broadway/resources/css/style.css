@@ -18,6 +18,8 @@ h3 {
 
 h4 {
   font-size: 18px;
+  color: white;
+
 }
 
 p {
@@ -26,6 +28,7 @@ p {
 
 .header, .mid_section{
     background-image: url("./../images/the-flatiron-building.png");
+    color: white;
 }
 
 .footer {
