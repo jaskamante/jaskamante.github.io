@@ -24,7 +24,7 @@ p {
   font-size: 14px;
 }
 
-.header {
+.header, .mid-section{
     background-image: url("./../images/the-flatiron-building.png");
 }
 
