@@ -27,7 +27,13 @@ p {
 .header, .mid_section {
     background-image: url("resources/images/the-flatiron-building.png");
 }
+
+.footer {
+  text-align: left;
+  background-color: dimgray;
+  color: white;
+
+}
 .copyright {
   font-size: 11px;
-  text-align: left;
 }
