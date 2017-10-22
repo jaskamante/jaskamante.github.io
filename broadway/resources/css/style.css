@@ -22,6 +22,10 @@ h4 {
 p {
   font-size: 14px;
 }
+
+.header, .mid_section {
+    background-image: url("resources/images/the-flatiron-building.png");
+}
 .copyright {
   font-size: 11px;
   text-align: left;
