@@ -1,5 +1,4 @@
 
-
 header {
   display: flex;
   font-family: Verdana;
@@ -9,7 +8,10 @@ header {
 }
 
 nav {
-  text-align: left;
+  display: flex;
+  text-align: right;
+  color: black;
+
 }
 
 nav li {
