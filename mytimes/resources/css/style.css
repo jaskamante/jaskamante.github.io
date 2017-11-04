@@ -3,6 +3,7 @@
 .container {
   display: flex;
 
+
 }
 header {
   font-family: Verdana;
@@ -10,12 +11,14 @@ header {
   font-weight: bold;
   color: MediumAquamarine;
   border: bold black;
+  justify-content: flex-end;
+
 }
 
 .navigation {
-  text-align: right;
   color: black;
   border: bold black;
+
 }
 
 .logo {
