@@ -1,0 +1,21 @@
+
+#header {
+  display: flex;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  border: 1px black solid;
+
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  color: black;
+
+}
+
+#top-nav {
+  color: black;
+}
