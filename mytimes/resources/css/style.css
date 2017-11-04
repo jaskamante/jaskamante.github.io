@@ -1,19 +1,23 @@
 
-header {
+
+.container {
   display: flex;
+
+}
+header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   color: MediumAquamarine;
+  border: bold black;
 }
 
-nav {
-  display: flex;
+.navigation {
   text-align: right;
   color: black;
-
+  border: bold black;
 }
 
-nav li {
-  display: inline-block;
+.logo {
+  border: bold black;
 }
