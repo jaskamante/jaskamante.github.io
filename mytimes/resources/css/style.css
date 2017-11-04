@@ -1,24 +1,20 @@
-.container {
+
+#header {
   display: flex;
-
-
-}
-header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
   border: bold black;
-  justify-content: flex-end;
+  justify-content: space-between;
+  border-color: black;
 
 }
 
-.navigation {
+#logo {
   color: black;
-  border: bold black;
 
 }
 
-.logo {
-  border: bold black;
+#top-nav {
+  color: black;
 }
