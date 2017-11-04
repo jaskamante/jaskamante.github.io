@@ -1,21 +1,33 @@
 
-#header {
+.header-container{
+  border: 1px solid gray; /*debugging*/
   display: flex;
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  padding-left: 20px;
   justify-content: space-between;
   border: 1px black solid;
-
-}
-
-#logo {
-  display: flex;
   align-items: center;
-  color: black;
 
 }
 
-#top-nav {
+.header {
+  display:flex;
+  justify-content: flex-start;
+  color: MediumAquamarine;
+  align-items: center;
+}
+
+.logo {
+  border: 1px solid gray; /*debugging*/
+}
+
+.top-nav {
+  display: inline-block;
+  border: 1px solid gray; /*debugging*/
   color: black;
+}
+.top-nav-item {
+  border: 1px black solid;
 }
