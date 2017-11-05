@@ -59,3 +59,24 @@
   border: 1px black solid;
 
 }
+
+.fall {
+  display:flex;
+  background-image: url("../../resources/images/img-story-2.png");
+  height: 300px;
+  background-repeat: no-repeat;
+}
+
+.camera {
+    display: flex;
+    background-image: url("../../resources/images/img-story-3.png");
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.cats {
+    display: flex;
+    background-image: url("../../resources/images/img-story-1.png");
+    background-repeat: no-repeat;
+    height: 300px;
+}
