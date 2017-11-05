@@ -36,3 +36,26 @@
     color: black;
 
 }
+
+.column {
+  display:flex;
+  border: 1px blue solid;
+
+}
+
+.column .large {
+  width: 630px;
+  border: 1px black solid;
+}
+
+.column .medium {
+  width: 300px;
+  border: 1px black solid;
+
+}
+
+.column .small {
+  width: 240px;
+  border: 1px black solid;
+
+}
