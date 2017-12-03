@@ -160,11 +160,6 @@ footer img {
   margin-right: 1rem;
 }
 
-footer span {
-    display: none;
-  }
-}
-
 @media only screen and (max-width: 1024px) {
 
     .banner {
@@ -247,6 +242,11 @@ footer span {
   }
 
   footer {
+    display:flex;
     justify-content: center;
+  }
+
+  footer span {
+    display:none;
   }
 }
