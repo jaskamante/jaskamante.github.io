@@ -1,3 +1,4 @@
+
 html {
   font-size: 18px;
   background-color: white;
@@ -6,6 +7,12 @@ html {
 body {
   font-family: Helvetica, sans-serif;
   line-height: 1.4rem;
+  padding: 0;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
 }
 
 .company {
@@ -14,21 +21,16 @@ body {
   padding: 0.66rem;
 }
 
-.company img {
-    height: 1.5rem;
-    padding-right: 1rem;
-    padding-left: 0.5rem;
-}
-
-.container {
-  max-width: 960px;
-  margin: 0 auto;
-}
-
 .company .container {
   display: flex;
   align-items: center;
   padding: 12px 0 12px 0.5rem;
+}
+
+.company img {
+    height: 1.5rem;
+    padding-right: 1rem;
+    padding-left: 0.5rem;
 }
 
 .main-banner {
@@ -73,18 +75,14 @@ nav ul {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 0.75rem 0;
+  padding: 0.75em 0;
+  list-style: none;
 }
 
 .mobile-nav {
   display: none;
 }
 
-.products, .business-info {
-    display: flex;
-    justify-content: space-between;
-    margin: 3em 0 0 0;
-}
 .info {
     width: 35%;
 }
@@ -95,6 +93,13 @@ nav ul {
     color: white;
     padding: 1rem 2rem;
 }
+
+.productsnew, .business-info {
+    display: flex;
+    justify-content: space-between;
+    margin: 3em 0 0 0;
+}
+
 .product {
     width: 30%;
 }
@@ -127,20 +132,70 @@ footer {
     margin-top: 4em;
 }
 
-@media only screen and (min-width: 480px) and (max-width: 768px){
-  .product {
-      width: 47%;
+@media only screen and (max-width: 1024px) {
+  body {
+    font-size: 16px;
   }
-  .info {
-      width: 35%;
+  nav ul {
+    display: none;
+  }
+
+  .mobile-nav {
+    display: block;
+    text-align: center;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
   }
 }
 
-@media only screen and (max-width: 480px) {
-  .product {
-      width: 90%;
+@media only screen and (max-width: 470px) {
+
+  .products {
+    flex-wrap: wrap;
   }
+
+  .product {
+    width: 90%;
+    margin: auto;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .business-info {
+    flex-wrap: wrap;
+  }
+
   .info {
-      width: 90%;
+    width: 90%;
+    margin: 0.5rem auto;
+  }
+  .banner {
+    height: 15rem;
+  }
+
+  .headline {
+    width: 100%;
+    padding: 1em 2em;
+    top: 10em;
+  }
+
+  .headline h4 {
+    font-size: .77rem;
+  }
+
+  .headline h1 {
+    font-size: 1rem;
+  }
+
+  footer {
+    text-align: center;
   }
 }
