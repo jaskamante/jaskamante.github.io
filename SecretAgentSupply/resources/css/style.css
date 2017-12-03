@@ -32,7 +32,7 @@ body {
 }
 
 .main-banner {
-  background-image: url("../../resources/moto.jpeg");
+  background-image: url("../../resources/images/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -74,6 +74,10 @@ nav ul {
   align-items: center;
   justify-content: space-between;
   padding: 0.75rem 0;
+}
+
+.mobile-nav {
+  display: none;
 }
 
 .products, .business-info {
