@@ -1,3 +1,4 @@
+
 html {
   font-size: 18px;
   background-color: white;
@@ -32,7 +33,7 @@ body {
     padding-left: 0.5rem;
 }
 
-.banner {
+.main-banner {
   background-image: url("../../resources/images/moto.jpeg");
   background-repeat: no-repeat;
   background-position: center;
