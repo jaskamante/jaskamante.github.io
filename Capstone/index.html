@@ -5,40 +5,47 @@
     <link rel="stylesheet" href="./resources/css/reset.css">
     <link rel="stylesheet" href="./resources/css/style.css">
     <link rel="icon" href="./resources/images/favicon-capstone.ico" type="image/x-icon">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,400,500,700" rel="stylesheet">
     <title>Colmar Academy</title>
   </head>
   <body>
 <!--Header Section-->
     <header>
-      <div class="logo">
-        <div class="logo-img">
-          <img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo">
+      <nav class="flex-container">
+        <div class="logo">
+          <div class="logo-img">
+            <img src="./resources/images/ic-logo.svg" alt="Colmar Academy logo">
+          </div>
+          <div class="colmar" role="presentation">
+            <span>COLMAR</span>
+          </div>
+          <div class="academy" role="presentation">
+            <span>ACADEMY</span>
+          </div>
         </div>
-        <div class="colmar-txt" role="presentation">
-          <span>COLMAR</span>
-        </div>
-        <div class="academy-txt" role="presentation">
-          <span>ACADEMY</span>
-        </div>
-      </div>
 
-      <!--navigation menu-->
-      <div class="menu">
-        <nav>
+        <div class="menu">
+
+          <!--navigation menu desktop-->
+
           <ul class="navigation-desktop" role="presentation">
-            <li>
-              <a href="#">On campus</a>
-            </li>
-            <li>
-              <a href="#">Online</a>
-            </li>
-            <li>
-              <a href="#">For companies</a>
-            </li>
-            <li>
-              <a href="#">Sign in</a>
-            </li>
-          </ul>
+            <ul>
+              <li>
+                <a href="#">On campus</a>
+              </li>
+              <li>
+                <a href="#">Online</a>
+              </li>
+              <li>
+                <a href="#">For companies</a>
+              </li>
+              <li>
+                <a href="#">Sign in</a>
+              </li>
+            </ul>
+
+          <!--navigation menu mobile-->
 
           <div class="navigation-mobile" role="presentation">
             <div class="logo-img">
@@ -62,8 +69,8 @@
               </a>
             </div>
           </div>
-        </nav>
-      </div>
+        </div>
+      </nav>
     </header>
 
     <!--Banner Section -->
@@ -76,11 +83,11 @@
       </div>
       <div class="main-text">
         <div class="text">
-          <h1>Learn something new everyday</h1>
+          <h1>Learn something</br>new everyday</h1>
           <h3>Lorem ipsum dolor sit amet, consecteteur adipisincing elit.</h3>
         </div>
-        <div class="start button">
-          <span>START NOW</span>
+        <div class="start">
+          <span>Start here</span>
         </div>
       </div>
     </section>
@@ -94,62 +101,51 @@
         </div>
         <div class="text">
           <h2>It doesn't hurt to keep practicing</h2>
-          <blockquote class="emanuel">
-            Curabitur vitae libero in ipsum porttito consequat. Aliquam et commodo lectus,
+          <h5>
+            "Curabitur vitae libero in ipsum porttito consequat. Aliquam et commodo lectus,
             nec consequat neque. Sed non accumsan urna. Phasellus sed consequat ex. Etiam eget magna
-            loareet, efficitur dolor consequat, tristique ligula.
-          </blockquote>
-          <span>Emanuel, Sr Strategist at Hiring.com</span>
+            loareet, efficitur dolor consequat, tristique ligula.""
+          </h5>
+          <span class="emanuel">Emanuel, Sr Strategist at Hiring.com</span>
         </div>
       </div>
-      <div class="side-feature" role="complementary">
-        <div class="sidebar">
-          <div class="sidebar-image">
-            <img src="./resources/images/information-orientation.jpg" alt="birdseye of students walking">
-          </div>
-          <div class="sidebar-mobile">
-            <img src="./resources/images/information-orientation-mobile.jpg" alt="birdseye of students walking">
-          </div>
+      <div class="side-features" role="complementary">
+        <div class="sidebar sidebar-border">
+          <img class="sidebar-desktop" src="./resources/images/information-orientation.jpg" alt="birdseye of students walking">
+          <img class="sidebar-mobile" src="./resources/images/information-orientation-mobile.jpg" alt="birdseye of students walking">
           <div class="sidebar-info">
             <h3>Orientation date</h3>
             <p>Tue 10/11 &amp; Wed 10/12: 8am-3pm</p>
             <a href="#">Read more</a>
           </div>
-        </div>
-        <div class="sidebar">
-          <div class="sidebar-image">
-            <img src="./resources/images/information-campus.jpg" alt="Students studying in a library">
           </div>
-          <div class="sidebar-mobile">
-            <img src="./resources/images/information-campus-mobile.jpg" alt="Students studyiing in a library">
-          </div>
+          <div class="sidebar sidebar-border" role="complementary">
+            <img class="sidebar-desktop" src="./resources/images/information-campus.jpg" alt="Students studying in a library">
+            <img class="sidebar-mobile" src="./resources/images/information-campus-mobile.jpg" alt="Students studyiing in a library">
+              <div class="sidebar-info">
+                <h3>Our campus</h3>
+                <p>Find which campus is close by you</p>
+                <a href="#">Read more</a>
+              </div>
+            </div>
+          <div class="sidebar" role="complementary">
+            <img class="sidebar-desktop" src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack wearing spectacles and beret">
+            <img class="sidebar-mobile" src="./resources/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack wearing spectacles and beret">
             <div class="sidebar-info">
-              <h3>Our campus</h3>
-              <p>Find which campus is close by you</p>
+              <h3>Our guest lecture</h3>
+              <p>Join a keynote with Oliver Sack about music in medical treatment</p>
               <a href="#">Read more</a>
             </div>
-          </div>
-        <div class="sidebar">
-          <div class="sidebar-image">
-            <img src="./resources/images/information-guest-lecture.jpg" alt="Oliver Sack wearing spectacles and beret">
-          </div>
-          <div class="sidebar-mobile">
-            <img src="./resources/images/information-guest-lecture-mobile.jpg" alt="Oliver Sack wearing spectacles and beret">
-          </div>
-          <div class="sidebar-info">
-            <h3>Our guest lecture</h3>
-            <p>Join a keynote with Oliver Sack about music in medical treatment</p>
-            <a href="#">Read more</a>
           </div>
         </div>
       </div>
     </section>
-    <!--Start Learning Section-->
+
+    <!--Courses Section-->
+
     <section class="courses">
-      <div class="title">
-        <h2>Start Learning</h2>
-      </div>
-      <div class="courses-flex-boxes">
+      <h2 class="courses-title">Start Learning</h2>
+      <div id="courses-flex-boxes">
         <div class="course-option" role="presentation">
           <img src="./resources/images/course-software.jpg" alt="Computers">
           <div class="course-info">
@@ -160,16 +156,20 @@
         </div>
         <div class="course-option" role="presentation">
           <img src="./resources/images/course-computer-art.jpg" alt="Smart phone">
-          <h3>Computer art</h3>
-          <SPAN>COURSES</SPAN>
-          <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects,
-            Computer Animation</p>
+          <div class="course-info">
+            <h3>Computer art</h3>
+            <SPAN>COURSES</SPAN>
+            <p>Imaging &amp; Design, Web Design, Motion Graphics &amp; Visual Effects,
+              Computer Animation</p>
+          </div>
         </div>
         <div class="course-option" role="presentation">
           <img src="./resources/images/course-design.jpg" alt="camera">
-          <h3>Design</h3>
-          <SPAN>COURSES</SPAN>
-          <p>User Experience Design, User Research, Visual Design</p>
+          <div class="course-info">
+            <h3>Design</h3>
+            <SPAN>COURSES</SPAN>
+            <p>User Experience Design, User Research, Visual Design</p>
+          </div>
         </div>
         <div class="course-option" role="presentation">
           <img src="./resources/images/course-data.jpg" alt="Laptop">
@@ -177,22 +177,104 @@
             <h3>Data</h3>
             <SPAN>COURSES</SPAN>
             <p>Data Science, Big Data, SQL, Data Visualization</p>
-         </div>
+          </div>
         </div>
         <div class="course-option" role="presentation">
           <img src="./resources/images/course-business.jpg" alt="Chess pieces">
-          <h3>Business</h3>
-          <SPAN>COURSES</SPAN>
-          <p>Product Development, Business Development, Startup</p>
+          <div class="course-info">
+            <h3>Business</h3>
+            <SPAN>COURSES</SPAN>
+            <p>Product Development, Business Development, Startup</p>
+          </div>
         </div>
         <div class="course-option" role="presentation">
           <img src="./resources/images/course-marketing.jpg" alt="Smart watch">
-          <h3>Marketing</h3>
-          <p>COURSES</p>
-          <p>Analytics, Content Marketing, Mobile Marketing</p>
+          <div class="course-info">
+            <h3>Marketing</h3>
+            <SPAN>COURSES</SPAN>
+            <p>Analytics, Content Marketing, Mobile Marketing</p>
+          </div>
         </div>
       </div>
-      <!--Start Learning Section for mobile view-->
+    </section>
 
+      <!--Start Learning Section for mobile view-->
+      <div id="start-learning-mobile" role="presentation">
+        <a href="software-engineering" aria-label="link to the software enginnering course information">
+          <span>Software Engineering</span>
+        </a>
+        <a href="computer-art" aria-label="link to the computer art course information">
+          <span>Computer Art</span>
+        </a>
+        <a href="design" aria-label="link to the design course information">
+          <span>Design</span>
+        </a>
+        <a href="data" aria-label="link to the data course information">
+          <span>Data</span>
+        </a>
+        <a href="business" aria-label="link to the business course information">
+          <span>Business</span>
+        </a>
+        <a href="marketing" aria-label="link to the marketing course information">
+          <span>Marketing</span>
+       </a>
+     </div>
+
+      <!--Thesis Section-->
+
+      <div id="thesis-section" role="presentation">
+        <h2 class="thesis-title">Thesis Exhibit</h1>
+        <div class="thesis-container" role="presentation">
+          <div class="main-story">
+            <div class="reimagine-video" role="presentation">
+              <video controls="" width=100% height=auto>
+                <source src="./resources/videos/thesis.mp4" alt="video for thesis exhibit at Colmar Academy" type="video/mp4">
+              </video>
+              <div class="reimagine-text" role="presentation">
+                <h3>Reimagine urban</h3>
+                <h5> "Curabitur vitae libero in ipsum porttito consequat.
+                  Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna.
+                  Phasellus sed consequat ex. Etiam eget magna loareet, efficitur dolor consequat, tristique ligula."
+                </h5>
+              </div>
+            </div>
+          </div>
+
+            <!-- Sidebar exhibit features -->
+          <div class="exhibit-features" role="complementary">
+            <div class="sidebar">
+              <img src="./resources/images/thesis-fisma.jpg">
+              <div class="sidebar-info">
+                <h3>Fisma: Design and Prototype</h4>
+                <p>Designer showcase of new prototype product</p>
+              </div>
+            </div>
+
+            <div class="sidebar">
+              <img src="./resources/images/thesis-now-and-then.jpg">
+              <div class="sidebar-info">
+               <h3>Now and then</h4>
+               <p>Research study about New York</p>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+
+      <!--Footer-->
+
+      <footer>
+        <span>©2016 Colmar Academy. All rights reserved</span>
+        <div class="terms-privacy" role="presentation">
+          <ul>
+            <li>
+              <a href="#" aria-label="link to terms of use for Colam Academy website">Terms</a>
+            </li>
+            <li>
+              <a href="#" aria-label="link to privacy policy for Colam Academy website">Privacy</a>
+            </li>
+          </ul>
+        </div>
+      </footer>
   </body>
 </html>
