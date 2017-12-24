@@ -444,7 +444,7 @@
     margin-bottom: 0.5rem;
   }
 
-/* Courses mobile version*/
+/* Courses mobile version */
 
 @media only screen and (max-width: 480px) {
 
@@ -456,14 +456,6 @@
     font-weight: bold;
     line-height: 1.6rem;
     color: #4c4c4c;
-  }
-
-  #courses-flex-boxes {
-    display: flex;
-    flex-wrap: wrap;
-    background-color: #FAFBFC;
-    text-align: left;
-    padding: 16px 16px 0px 16px;
   }
 
   .course-option {
@@ -483,14 +475,13 @@
     display: none;
   }
 
-  .course-option h3 {
-    font-weight: normal;
-    font-size: 1rem;
+  .course-info h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
     background-color: #C9C7C7;
     font-family: 'Work Sans';
     color:#5f5a5a;
-    padding: 1rem 1rem 1.5rem 1rem;
-
+    margin-bottom: 0px;
   }
 }
 
